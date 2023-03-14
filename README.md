@@ -1,3 +1,3 @@
-# Portifolio
+# Portfolio
 
-projeto porfolio de incialização.
+projeto portfolio feito em flask em back-end.
