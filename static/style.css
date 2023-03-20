@@ -272,3 +272,66 @@ i.menu-mobile{
     background: #fff;
     border-radius: 50%;
 }
+
+/* Style Portfolio -  carrossel   */
+
+
+.carousel-control-prev{
+    margin-left: -10rem;
+
+}
+
+.carousel-control-next{
+    margin-right: -10rem;
+}
+
+.carousel-indicators{
+    margin-bottom: -35px;
+}
+
+@media (max-width:1860px){
+    .carousel-control-prev{
+        margin-left: 0;
+    
+    }
+    
+    .carousel-control-next{
+        margin-right: 0;
+    }
+}
+
+
+/* Style Contato */
+
+#contato{
+    background: #eef0f3;
+}
+
+
+/* Animação Sobre */
+[data-anime]{
+    opacity: 0;
+    transition: 1s;
+}
+
+[data-anime="down"]{
+    transform: translate3d(0,-100%,0);  /* <<- X, Y, Z   */
+}
+[data-anime="up"]{
+    transform: translate3d(0,100%,0);  /* <<- X, Y, Z   */
+
+
+}
+[data-anime="left"]{
+    transform: translate3d(-100%,0,0);  /* <<- X, Y, Z   */
+
+
+}
+/* [data-anime="right"]{
+    transform: translate3d(20px,0,0);
+} */
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
