@@ -43,3 +43,14 @@ animeScroll()
 window.addEventListener("scroll", ()=>{
     animeScroll()
 })
+
+
+// Ativar o botao de carregamento 
+
+const btnEnviar = document.querySelector("#btn-enviar")
+const btnLoader = document.querySelector("#btn-loader")
+
+btnEnviar.addEventListener("click", ()=>{
+    btnLoader.style.display = "block"
+    btnEnviar.style.display = "none"
+})
