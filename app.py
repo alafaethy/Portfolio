@@ -50,7 +50,7 @@ def send():
         msgs = Message(
             subject=f'{formContato.nome} envio mensagem do Portfolio',
             sender= app.config.get("MAIL_USERNAME"),
-            recipients=[ app.config.get("MAIL_USERNAME")],
+            recipients=['afaethy@gmail.com'],
             body=f'''
                     {formContato.nome} entrou em contato pelo {formContato.email}, te envio a 
                     seguite mensagem:

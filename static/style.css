@@ -341,3 +341,36 @@ i.menu-mobile{
 #btn-loader{
     display: none;
 }
+
+
+/* style alerta */
+
+#alerta{
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 30px;
+}
+
+/* style footer */
+
+#footer{
+    padding: 5px;
+    color: #fff;
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9999;
+    background-color: #021124;
+    transition: .3s;
+}
+
+@media (max-width: 1012px){
+    #footer{
+        position: static;
+        width: auto;
+        padding: 20px 15px;
+    }
+}

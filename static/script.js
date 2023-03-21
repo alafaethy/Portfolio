@@ -54,3 +54,8 @@ btnEnviar.addEventListener("click", ()=>{
     btnLoader.style.display = "block"
     btnEnviar.style.display = "none"
 })
+
+
+setTimeout(()=>{
+    document.querySelector("#alerta").style.display = "none"
+},5000)
