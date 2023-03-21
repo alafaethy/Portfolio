@@ -1,3 +1,3 @@
-# Portfolio
+# Meu Portfolio
 
-projeto portfolio feito em flask em back-end.
+projeto portfolio feito em flask em back-end e Front-end html, js e cs.
